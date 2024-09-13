@@ -1,0 +1,158 @@
+(footprint "ST-0311T"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Electromagnetic Buzzer")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "777870a0-e2b3-4dd2-b9ea-5bd060781358")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ST-0311T"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "88c11784-c4ac-430f-80e1-36ae877b83f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "ST-0311T"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0a742b2-0073-4860-a002-d31af9dfe082")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36d89850-4100-437f-822d-d60c732d4cdc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3beeec1f-819b-4274-83a2-b53c5babe3a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 6)
+		(end -2.5 3.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d4d6b5cd-47fd-45e5-9f07-41d058e57c2d")
+	)
+	(fp_line
+		(start -2.5 6)
+		(end 2.5 6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "de992109-96ec-4a4d-a29b-f9ce882f8b93")
+	)
+	(fp_line
+		(start 2.5 6)
+		(end 2.5 3.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bf2191bb-0d2a-435a-b8e7-75d8c97c921b")
+	)
+	(fp_arc
+		(start -4.5 0)
+		(mid 0 -4.5)
+		(end 4.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8f9488fb-4b66-40d9-9d40-8df4c8e66566")
+	)
+	(fp_arc
+		(start -2.615572 3.661801)
+		(mid -4.001255 2.059117)
+		(end -4.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1bd4b38d-5bb0-4e62-94c9-2664176c7a2e")
+	)
+	(fp_arc
+		(start 4.5 0)
+		(mid 4.001254 2.059117)
+		(end 2.615572 3.661801)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "aaec7733-23e8-4ccd-b5bd-799598f5fe16")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "631a4e13-9224-4e83-99b0-d8a5b2ab552c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.75 0 90)
+		(size 2 3.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8d9c10fa-e402-4ebc-b166-4b45aa19ea91")
+	)
+	(pad "2" smd rect
+		(at 3.75 0 90)
+		(size 2 3.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6553b862-f071-4eab-8528-cd88d1b821db")
+	)
+)
