@@ -13,8 +13,10 @@ This is a reboot of a [project started in 2016](https://hackaday.io/project/1105
 ## Hardware
 Uses an ESP32-S3, coupled with an SX1276 for reception and transmission of signals. Battery is a classic 3.7V Li-Ion cell with integrated battery management and charging. USB-C port for programming and charging. OLED or LCD display (TBD).
 
-## Revision list
+## Hardware revision list
 
  - The [initial design from 2016](https://hackaday.io/project/11056-waffle-a-pocket-sized-digital-radio-system) is known as rev XX
  - 0.1a: current version. Aims to validate the basic hardware choices and being dev on software.
 
+## Software
+The (WIP) software can be found in [this repository](https://github.com/Jankyneering/Waffle_sw). 
